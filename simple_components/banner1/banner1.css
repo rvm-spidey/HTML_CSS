@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+
+.banner {
+  background-image: url(/images_repo/desksetups.png);
+  background-position: top;
+  background-size: cover;
+  width: auto;
+  height: 500px;
+}
+
+h1,h2,a {
+  color: white;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+a {
+  width: 100px;
+  background-color: rgb(15, 179, 255);
+  text-decoration: underline wavy rgb(255, 6, 6);
+  text-underline-offset: 0.5em;
+  text-align: center;
+}
+
+h2 {
+  opacity: 0.8;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+  height: 500px;
+  margin-left: 50px;
+}
