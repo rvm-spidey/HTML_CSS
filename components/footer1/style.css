@@ -1,0 +1,26 @@
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+.container {
+  width: 100%;
+  height: 20vh;
+  /* background-color: antiquewhite; */
+}
+
+a {
+  font-size: 40px;
+  margin-left: 30px;
+  color: rgb(147, 205, 255);
+}
+
+a:first-child {
+  margin-left: 10px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 0 auto;
+}

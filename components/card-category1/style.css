@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 50vh;
+  background-image: url(https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container h1 {
+  color: rgb(0, 199, 120);
+  font-size: 70px;
+  letter-spacing: 20px;
+  text-decoration: underline wavy rgb(0, 123, 74);
+}

@@ -1,0 +1,32 @@
+.container {
+  width: 50%;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.card-img {
+  background-image: url(https://images.unsplash.com/photo-1602980016589-4c41f626924e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1412&q=80);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  background-image: url(https://images.unsplash.com/photo-1636569061713-0212bd19e3e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwaWRlcm1hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60) ;
+  background-position: center;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  right: 25px;
+  bottom: 50px;
+}
